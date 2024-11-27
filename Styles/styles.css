@@ -1,7 +1,10 @@
 main{ max-width: 840px;
+
 }
 aside { 
     width: 20rem;
+
+    
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2); /*1️⃣*/
     padding: 1rem;
@@ -14,7 +17,7 @@ aside {
 aside img{
     width: 150px;
     height: auto;
-  
+ 
 }
 
 main img {
@@ -23,11 +26,7 @@ main img {
     
 }
 
-
-
-
 p {padding: 0;}
-
 
 footer {
     margin-top: 15px;
