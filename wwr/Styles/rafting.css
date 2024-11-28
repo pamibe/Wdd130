@@ -1,0 +1,73 @@
+*{box-sizing: border-box;
+
+}
+
+h1{font-size: 3.5em;
+text-align: center;
+color:  #644124 ;
+position: relative;
+}
+h2{font-size: 2.5em;
+text-align: center;
+color:  #6B7036 ;
+}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+
+body{
+
+    background-color: #E8BB24;
+    
+
+    
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      
+      
+      
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+    }
+
+
+
+
+header{
+    background-color: #644124;
+}
+
+header.logo{
+    margin: 0;
+    padding: 25px  30px;
+    text-align: center;
+  
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+div{
+   text-align: center;
+
+}
+
+
+footer{
+
+    height: 150px;
+    color: #8E97A3;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+
+
