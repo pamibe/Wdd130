@@ -20,6 +20,7 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 h2{font-size: 2.5em;
 text-align: center;
 color:  #6B7036 ;
+position: relative;
 }
 
 p{font-size: 1.25em;
@@ -79,23 +80,7 @@ div{
     width: 100%;
     height: 500px;
     overflow: hidden;
-    
-}
-
-.hero img{
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-}
-
-.hero h1{
-    top: 20%;
-    left: 10%;
-    font-size: 3rem;
-}
-
-
-
+}  
 
 footer{
 
