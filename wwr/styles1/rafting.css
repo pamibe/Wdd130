@@ -5,14 +5,17 @@
 h1{font-size: 3.5em;
 text-align: center;
 color:  #644124 ;
-position: relative;
+position: absolute;
 }
 h2{font-size: 2.5em;
 text-align: center;
 color:  #6B7036 ;
 }
-p{font-size: 1.25em;}
+p{font-size: 1.25em;
+position: absolute;
+}
 ul{list-style: none;}
+
 
 
 body{
@@ -54,10 +57,13 @@ nav{
     padding-bottom: 25px;
 }
 
-div{
-   text-align: center;
-
+.hero img{
+  display: block;
+  width: 100;
+  height: auto;
+  position: relative;
 }
+
 
 
 footer{
