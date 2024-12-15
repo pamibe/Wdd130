@@ -1,95 +1,172 @@
-*{box-sizing: border-box;
+
+.header{
+    background-color:#e8bb24 
+}
+
+    
+.navbar ul{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
 }
 
-h1{font-size: 3.5em;
-text-align: center;
-color:  #644124 ;
-margin: 20px 0;
+
+.navbar ul li a{
+    font-size: 18px;
+    padding: 5px;
+    color:#644124;
+    display: block;
+    font-weight: 600;
+    font-weight: bold;
+
+   
+
+    
+}
+
+
+
+
+
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero{
+    background-image:
+    url(https://cdn-lebpf.nitrocdn.com/eBZSzoIUyOLncBxrSSFPGslBDawPRIPg/assets/images/optimized/rev-1bc8cde/www.nwrafting.com/wp-content/uploads/2023/12/Loon-Creek-Camp.jpg);
+    background-position: center bottom; 
+    background-size: cover; 
+    min-height: 35vh;
+  
+ 
+    
+}
+
+
+
+
+.hero h1{
+    text-align: center;
+    color: #e8bb24;
+    font-size: 40px;
+}
+
+.hero p{
+    color: rgb(238, 234, 230);
+    margin-top: 10px; 
+    margin-right: 200px;
+    margin-left: 200px;
+    position: relative;
+    font-size: 20px;
+    
+    
+    
+    
+}
+ 
+.hero img{
+    width: 100x;
+    height: 100px;
+    display: flex;
+    margin-right: 100px;
+    float: inline-end;
+    border: 3px solid #e8bb24;;
+    border-radius: 10px;
+    margin-right: 15px;
+    
+    
+    
 
 
 }
+    
 
-.article{
-max-width: 800px;
-margin: 20px auto;
-padding: 20px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-}
-h2{font-size: 2.5em;
-text-align: center;
-color:  #6B7036 ;
-position: relative;
-}
-
-p{font-size: 1.25em;
-position: relative;
-
-}
-ul{list-style: none;}
-
-
+    
 
 body{
-
-    background-color: #E8BB24;
-    
-
-    
-        font-family: "Kanit", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-      
-      
-      
-        font-family: "Kanit", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      
-    }
-
-
-
-
-header{
-    background-color: #644124;
+   
+   font-family:  "Kanit", sans-serif;
+   background-color:#6B7036
 }
 
-header.logo{
-    margin: 0;
-    padding: 25px  30px;
+.history-content p{
+    
+        
+        margin-top: 10px; 
+        margin-right: 200px;
+        margin-left: 200px;
+        text-align: justify;
+        font-size: 20px;
+        color: #010406;
+
+
+}
+
+.history h2{
     text-align: center;
-  
-}
+    color:black;
+    font-size: 40px;
+    
+    
 
-nav{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-bottom: 25px;
-}
+    
+    
 
-div{
-   text-align: center;
 
 }
 
-.hero img {
-    position:relative;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-}  
+.history img{
+     max-width: 200px;
+     border: 3px solid #e8bb24;;
+     border-radius: 10px;
+     margin-right: 15px;
+     position: relative;
+     float: left;
+     margin: 90px;
 
-footer{
-
-    height: 150px;
-    color: #8E97A3;
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
+     
+     
+ 
 }
 
+.adventure {
+
+    border: 6px solid #e8bb24;
+    width: min(90%, 700px);
+    margin: 30px 30px;
+    margin-top: 50px;
+    padding: 10px;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    overflow-x: auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.adventure{
+    height: 250px;
+    width: auto;
+    border-radius: 8px;
+    
+
+} 
+
+
+
+
+    
+    
 
 
